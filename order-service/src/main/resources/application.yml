@@ -9,7 +9,7 @@ spring:
   data:
     mongodb:
       uri: ${MONGODB_URI:mongodb+srv://jarvis:Nimish@123@jarvis.gs6bsms.mongodb.net/orders_db?appName=JARVIS}
-      database: or222222ders_db
+      database: orders_db
   jackson:
     default-property-inclusion: non_null
     serialization:
